@@ -1,0 +1,8 @@
+Apabila ingin kalkulasi "Rata-Rata" tapi Value numbernya ga diketahui/ terlalu buanyak data
+bisa pake yang namanya "Exponential Averaging".
+Formula : update_avg = alpha * current_value + ( 1 - alpha) * prev_avg
+
+Alpha : Parameter yang merepresentasikan seberapa besar prev_avg berkontribusi untuk mendapatkan update_avg
+
+
+
